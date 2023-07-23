@@ -1,0 +1,67 @@
+body {text-align: center; 
+    font-family: 'Lumanosimo',cursive; 
+    font-weight: 500px;
+}
+#main {width: 1000px; 
+margin-left:auto; 
+margin-right:auto; position:relative;}
+#head {  
+    height: 100px;
+    width: 100%; 
+}
+.logo {background-color: beige; border: 1px solid black;
+float:left;   height: 100px; border-right: 2px solid rgb(74, 68, 68);
+width: 100px;}
+.banner {width:850px; 
+    float:right; border:1px solid rgb(74, 68, 68);
+height: 100px;}
+
+#head-link {background-color: aqua; 
+height: 80px; 
+}
+.menu {list-style-type: none; width: 600px;
+    display: inline;  }
+.menu-item {width:100px;display:inline-block; float:left;
+    padding: 15px;}
+.search-box {float:right; padding: 15px 10px;;}
+.box { border-radius:10px; padding: 5px;}
+
+#left {
+height: 400px;
+float:left; width: 190px;
+}
+.left-menu1 {background-color: rgb(67, 188, 91); border:2px solid red;}
+.left-menu1-item {padding: 5px; font-size: 13px;}
+.left-menu2 {border: 2px solid pink;} 
+.left-menu2-item {padding: 5px; font-size: 13px;}
+
+#content{
+height: 400px;
+float:left; width: 600px;
+}
+.content-row1 {margin: 1px;}
+.content-hotnews{ float:left; border: 1px solid black;
+width: 290px; padding-bottom: 52px; padding-top: 20px;}
+.content-slide { float:right; border: 1px solid black;
+width: 300px; padding-bottom: 52px;  padding-top: 20px;}
+.content-row2 {clear:both; height: 100px;
+;}
+.content-news {display:inline-block;
+width: 191px; padding: 35px 52px;;
+border: 1px solid purple; float: left;}
+
+
+
+#right {background-color: bisque;
+    height: 400px;
+    width: 190px;
+    float: right; border: 1px solid black;
+}
+.right-calendar {border-bottom: 1px solid red; padding: 50px;}
+.right-map {padding: 40px;}
+#footer {background-color: greenyellow;
+clear: both; height: 50px;  font-size: 14px; margin: 2px 2px;;
+}
+.footer-left {float: left; padding: 15px;}
+.footer-right {float:right; 
+width: 700px;}
